@@ -4,7 +4,7 @@ import  Map  from "../components/Map.jsx";
 import { useJsApiLoader } from "@react-google-maps/api";
 import { Autocomplete } from "../components/Autocomplate/Autocomplate.jsx";
 
-let MAP_KEY = process.env.NEXT_PUBLIC_MAP_KEY;
+let MAP_KEY = process.env.MAP_KEY;
 
 const center = {
   lat: 50.4536,
